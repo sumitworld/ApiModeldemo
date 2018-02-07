@@ -8,8 +8,6 @@
 
 import UIKit
 
-// sumit //sumit
-
 var appInstance : AppDelegate!
 
 @UIApplicationMain
