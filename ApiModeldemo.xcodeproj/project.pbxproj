@@ -12,9 +12,23 @@
 		A72C8A8B2028D73000501BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72C8A892028D73000501BD1 /* Main.storyboard */; };
 		A72C8A8D2028D73000501BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72C8A8C2028D73000501BD1 /* Assets.xcassets */; };
 		A72C8A902028D73000501BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72C8A8E2028D73000501BD1 /* LaunchScreen.storyboard */; };
+		A72C8A9B2028D80300501BD1 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C8A9A2028D80300501BD1 /* Utilities.swift */; };
+		A72C8A9F2028DAC600501BD1 /* AlamofireModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C8A9E2028DAC500501BD1 /* AlamofireModel.swift */; };
+		A72C8AA12028DAF700501BD1 /* BaseValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C8AA02028DAF700501BD1 /* BaseValidationViewController.swift */; };
+		A72C8AA22028DC9800501BD1 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72C8AA32028DC9800501BD1 /* Reachability.framework */; };
+		A72C8AA52028DD9400501BD1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C8AA42028DD9400501BD1 /* Constants.swift */; };
+		A72C8AA62028EAA700501BD1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72C8AAB2028EAA700501BD1 /* Alamofire.framework */; };
+		A72C8AA72028EAA700501BD1 /* KSToastView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72C8AAC2028EAA700501BD1 /* KSToastView.framework */; };
+		A72C8AA82028EAA700501BD1 /* NVActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72C8AAD2028EAA700501BD1 /* NVActivityIndicatorView.framework */; };
+		A72C8AA92028EAA700501BD1 /* SwiftValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72C8AAE2028EAA700501BD1 /* SwiftValidator.framework */; };
+		A72C8AAA2028EAA700501BD1 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72C8AAF2028EAA700501BD1 /* SwiftyJSON.framework */; };
+		D503090FC04A4457E9655294 /* Pods_ApiModeldemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E0E014D8C51E8E2892A7E7 /* Pods_ApiModeldemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DBEC4DDECC294662CF40615 /* Pods-ApiModeldemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiModeldemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApiModeldemo/Pods-ApiModeldemo.release.xcconfig"; sourceTree = "<group>"; };
+		76E0E014D8C51E8E2892A7E7 /* Pods_ApiModeldemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiModeldemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1F37A18A3EFC1489661A0A /* Pods-ApiModeldemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiModeldemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApiModeldemo/Pods-ApiModeldemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A72C8A822028D73000501BD1 /* ApiModeldemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiModeldemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72C8A852028D73000501BD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A72C8A872028D73000501BD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,16 @@
 		A72C8A8C2028D73000501BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A72C8A8F2028D73000501BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A72C8A912028D73000501BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72C8A9A2028D80300501BD1 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A72C8A9E2028DAC500501BD1 /* AlamofireModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireModel.swift; sourceTree = "<group>"; };
+		A72C8AA02028DAF700501BD1 /* BaseValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseValidationViewController.swift; sourceTree = "<group>"; };
+		A72C8AA32028DC9800501BD1 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72C8AA42028DD9400501BD1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A72C8AAB2028EAA700501BD1 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72C8AAC2028EAA700501BD1 /* KSToastView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KSToastView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72C8AAD2028EAA700501BD1 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72C8AAE2028EAA700501BD1 /* SwiftValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72C8AAF2028EAA700501BD1 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72C8AA62028EAA700501BD1 /* Alamofire.framework in Frameworks */,
+				A72C8AA72028EAA700501BD1 /* KSToastView.framework in Frameworks */,
+				A72C8AA82028EAA700501BD1 /* NVActivityIndicatorView.framework in Frameworks */,
+				A72C8AA92028EAA700501BD1 /* SwiftValidator.framework in Frameworks */,
+				A72C8AAA2028EAA700501BD1 /* SwiftyJSON.framework in Frameworks */,
+				A72C8AA22028DC9800501BD1 /* Reachability.framework in Frameworks */,
+				D503090FC04A4457E9655294 /* Pods_ApiModeldemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EE5BDC5A6F3E6541D6E98A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E1F37A18A3EFC1489661A0A /* Pods-ApiModeldemo.debug.xcconfig */,
+				3DBEC4DDECC294662CF40615 /* Pods-ApiModeldemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A72C8A792028D73000501BD1 = {
 			isa = PBXGroup;
 			children = (
 				A72C8A842028D73000501BD1 /* ApiModeldemo */,
 				A72C8A832028D73000501BD1 /* Products */,
+				1EE5BDC5A6F3E6541D6E98A3 /* Pods */,
+				EA409FDB0277E35449340867 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +96,10 @@
 		A72C8A842028D73000501BD1 /* ApiModeldemo */ = {
 			isa = PBXGroup;
 			children = (
+				A72C8AA42028DD9400501BD1 /* Constants.swift */,
+				A72C8A9E2028DAC500501BD1 /* AlamofireModel.swift */,
+				A72C8AA02028DAF700501BD1 /* BaseValidationViewController.swift */,
+				A72C8A9A2028D80300501BD1 /* Utilities.swift */,
 				A72C8A852028D73000501BD1 /* AppDelegate.swift */,
 				A72C8A872028D73000501BD1 /* ViewController.swift */,
 				A72C8A892028D73000501BD1 /* Main.storyboard */,
@@ -64,6 +110,20 @@
 			path = ApiModeldemo;
 			sourceTree = "<group>";
 		};
+		EA409FDB0277E35449340867 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A72C8AAB2028EAA700501BD1 /* Alamofire.framework */,
+				A72C8AAC2028EAA700501BD1 /* KSToastView.framework */,
+				A72C8AAD2028EAA700501BD1 /* NVActivityIndicatorView.framework */,
+				A72C8AAE2028EAA700501BD1 /* SwiftValidator.framework */,
+				A72C8AAF2028EAA700501BD1 /* SwiftyJSON.framework */,
+				A72C8AA32028DC9800501BD1 /* Reachability.framework */,
+				76E0E014D8C51E8E2892A7E7 /* Pods_ApiModeldemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A72C8A942028D73000501BD1 /* Build configuration list for PBXNativeTarget "ApiModeldemo" */;
 			buildPhases = (
+				7DCFD110B7E740BDA4656332 /* [CP] Check Pods Manifest.lock */,
 				A72C8A7E2028D73000501BD1 /* Sources */,
 				A72C8A7F2028D73000501BD1 /* Frameworks */,
 				A72C8A802028D73000501BD1 /* Resources */,
+				04F181CE7CF3199580F37A8D /* [CP] Embed Pods Frameworks */,
+				FDF611269031FAE99DB40E1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +194,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04F181CE7CF3199580F37A8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ApiModeldemo/Pods-ApiModeldemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/KSToastView/KSToastView.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftValidator/SwiftValidator.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSToastView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftValidator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApiModeldemo/Pods-ApiModeldemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DCFD110B7E740BDA4656332 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApiModeldemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF611269031FAE99DB40E1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApiModeldemo/Pods-ApiModeldemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A72C8A7E2028D73000501BD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A72C8A882028D73000501BD1 /* ViewController.swift in Sources */,
+				A72C8A9B2028D80300501BD1 /* Utilities.swift in Sources */,
 				A72C8A862028D73000501BD1 /* AppDelegate.swift in Sources */,
+				A72C8AA12028DAF700501BD1 /* BaseValidationViewController.swift in Sources */,
+				A72C8A9F2028DAC600501BD1 /* AlamofireModel.swift in Sources */,
+				A72C8AA52028DD9400501BD1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +403,12 @@
 		};
 		A72C8A952028D73000501BD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1F37A18A3EFC1489661A0A /* Pods-ApiModeldemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ApiModeldemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sumit.parmar.sam.ApiModeldemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,10 +419,12 @@
 		};
 		A72C8A962028D73000501BD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBEC4DDECC294662CF40615 /* Pods-ApiModeldemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ApiModeldemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sumit.parmar.sam.ApiModeldemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
